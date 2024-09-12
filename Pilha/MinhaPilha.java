@@ -1,5 +1,11 @@
+package Pilha;
 public class MinhaPilha {
-
+    //push(e)
+    //pop()
+    //top()
+    //size()
+    //isEmpty()
+    //clear()
     private int [] pilha;
     private int nElementos;
 
