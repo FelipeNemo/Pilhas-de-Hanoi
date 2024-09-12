@@ -41,4 +41,16 @@ public class TorreManual {
     public void clear() {
         nElementos = 0;
     }
+
+    public void printPilha() {
+        if (nElementos == 0) {
+            System.out.println("A pilha está vazia.");
+        } else {
+            System.out.print("Elementos na pilha: ");
+            for (int i = 0; i < nElementos; i++) {
+                System.out.print(pilha[i] + " ");
+            }
+            
+        }
+    }
 }
